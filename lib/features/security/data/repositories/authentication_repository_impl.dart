@@ -1,7 +1,7 @@
-import 'package:sample_new_structure_app/features/security/presentation/data/datasources/authentication_datasource.dart';
-import 'package:sample_new_structure_app/features/security/presentation/data/models/sign_in_request_model.dart';
-import 'package:sample_new_structure_app/features/security/presentation/domain/entities/user.dart';
-import 'package:sample_new_structure_app/features/security/presentation/domain/repositories/iauthentication_repository.dart';
+import 'package:sample_new_structure_app/features/security/data/datasources/authentication_datasource.dart';
+import 'package:sample_new_structure_app/features/security/data/models/sign_in_request_model.dart';
+import 'package:sample_new_structure_app/features/security/domain/entities/user.dart';
+import 'package:sample_new_structure_app/features/security/domain/repositories/iauthentication_repository.dart';
 
 class AuthenticationRespositoryImpl implements IAuthenticationRepository {
   final IAuthenticationRemoteDatasource _authenticationremoteDatasource;

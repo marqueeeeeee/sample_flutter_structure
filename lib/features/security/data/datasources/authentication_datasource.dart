@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:sample_new_structure_app/features/security/presentation/data/models/sign_in_request_model.dart';
-import 'package:sample_new_structure_app/features/security/presentation/data/models/sign_in_response_model.dart';
+import 'package:sample_new_structure_app/features/security/data/models/sign_in_request_model.dart';
+import 'package:sample_new_structure_app/features/security/data/models/sign_in_response_model.dart';
 
 abstract class IAuthenticationRemoteDatasource {
   Future<SignInResponseModel> signInApiRequest(SignInRequestModel requestModel);

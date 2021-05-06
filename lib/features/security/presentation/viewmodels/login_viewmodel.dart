@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sample_new_structure_app/features/security/presentation/domain/entities/user.dart';
-import 'package:sample_new_structure_app/features/security/presentation/domain/repositories/iauthentication_repository.dart';
+import 'package:sample_new_structure_app/features/security/domain/entities/user.dart';
+import 'package:sample_new_structure_app/features/security/domain/repositories/iauthentication_repository.dart';
 import 'package:sample_new_structure_app/router/router_setup.gr.dart';
 import 'package:sample_new_structure_app/utilities/viewmodel/base_view_model.dart';
 
