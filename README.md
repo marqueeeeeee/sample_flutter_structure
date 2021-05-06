@@ -8,20 +8,20 @@ flutter pub run build_runner build --delete-conflicting-outputs
 ## Structure
 
 Utilities 
-Dependencies - service locator / IOC
-Features - modules (ex. Security, Cart, Order, Registration)
--- data 
----- models
----- datasources
----- repository
--- domain
----- entities
----- repository
--- presentation 
----- pages
----- viewmodels
----- widgets
-Router - router configuration
-main.dart
+Dependencies - service locator / IOC  
+Features - modules (ex. Security, Cart, Order, Registration)  
+-- data   
+---- models  
+---- datasources  
+---- repository  
+-- domain  
+---- entities  
+---- repository  
+-- presentation  
+---- pages  
+---- viewmodels  
+---- widgets  
+Router - router configuration  
+main.dart  
 
 
